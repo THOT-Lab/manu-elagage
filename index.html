@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Manu Élagage · Élagueur dans le Var et les Alpes-Maritimes</title>
+  <meta name="description" content="Manu Élagage, arboriste-grimpeur à Tourrettes (83) : élagage, taille douce, abattage, démontage, palmiers et débroussaillement dans le Var et les Alpes-Maritimes.">
+  <meta name="theme-color" content="#17301f">
+  <link rel="canonical" href="https://thot-lab.github.io/manu-elagage/">
+
+  <!-- Aperçu de partage (WhatsApp, Facebook, Messenger, LinkedIn, X…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Manu Élagage">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Manu Élagage · Votre élagage dans le 83 et le 06">
+  <meta property="og:description" content="Arboriste-grimpeur à Tourrettes : élagage, taille douce, abattage, palmiers, débroussaillement. Particuliers et chantiers d’envergure.">
+  <meta property="og:url" content="https://thot-lab.github.io/manu-elagage/">
+  <meta property="og:image" content="https://thot-lab.github.io/manu-elagage/assets/meta/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://thot-lab.github.io/manu-elagage/assets/meta/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Manu Élagage, élagage dans le Var et les Alpes-Maritimes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manu Élagage · Votre élagage dans le 83 et le 06">
+  <meta name="twitter:description" content="Arboriste-grimpeur à Tourrettes : élagage, taille douce, abattage, palmiers, débroussaillement.">
+  <meta name="twitter:image" content="https://thot-lab.github.io/manu-elagage/assets/meta/og-image.jpg">
+
+  <!-- Icônes : onglet du navigateur, écran d'accueil iPhone / Android -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/meta/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/meta/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <header class="bar" id="bar">
+    <a class="brand" href="#/" aria-label="Manu Élagage, accueil">
+      <img class="brand__mark" id="logo" src="assets/logo-mark.svg" width="52" height="52" alt="">
+      <span class="brand__name"><b>Manu</b> Élagage</span>
+    </a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#/" data-route="">Accueil</a>
+      <a href="#/elagage" data-route="elagage">L’élagage</a>
+      <a href="#/chantiers" data-route="chantiers">Nos chantiers</a>
+      <a href="#/contact" data-route="contact" class="nav__cta">Nous contacter</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="foot">
+    <div class="foot__inner">
+      <div class="foot__brand">
+        <img src="assets/logo-mark.svg" width="64" height="64" alt="" data-logo>
+        <div>
+          <strong>Manu Élagage</strong>
+          <p>Arboriste-grimpeur · Var &amp; Alpes-Maritimes</p>
+        </div>
+      </div>
+      <div class="foot__col" id="foot-contact"></div>
+      <div class="foot__col">
+        <a href="#/elagage">L’élagage</a>
+        <a href="#/chantiers">Nos chantiers</a>
+        <a href="#/contact">Demander un devis</a>
+        <button type="button" class="linkish" data-open="mentions">Mentions légales</button>
+        <button type="button" class="linkish" data-open="credits">Crédits photos</button>
+      </div>
+    </div>
+    <p class="foot__small" id="foot-small"></p>
+  </footer>
+
+  <dialog class="sheet" id="credits">
+    <h2>Crédits photos</h2>
+    <p class="sheet__note">Photos d’illustration issues de Wikimedia Commons, en attendant les photos des chantiers de Manu.</p>
+    <ul id="credits-list"></ul>
+    <form method="dialog"><button class="btn btn--ghost-dark">Fermer</button></form>
+  </dialog>
+
+  <dialog class="sheet" id="mentions">
+    <h2>Mentions légales</h2>
+    <div id="mentions-body"></div>
+    <form method="dialog"><button class="btn btn--ghost-dark">Fermer</button></form>
+  </dialog>
+
+  <a class="callfab" id="callfab" href="#" aria-label="Appeler Manu Élagage">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
+  </a>
+
+  <script src="script.js" type="module"></script>
+  <script src="/retour-central.js" data-game-id="manu-elagage" defer></script>
+</body>
+</html>
